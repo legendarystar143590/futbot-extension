@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_icon": "image/icon1.png",
+      "default_title": "FUTBot 2.1.6"
+   },
+   "background": {
+      "service_worker": "js/cc2.js"
+   },
+   "content_scripts": [ {
+      "js": [ "js/jquery-3.1.1.min.js", "js/cc1.js" ],
+      "matches": [ "https://www.ea.com/*" ]
+   } ],
+   "description": "Automate your sniping easily",
+   "host_permissions": [ "https://xzenmart.com/*", "https://www.ea.com/*" ],
+   "icons": {
+      "128": "image/icon1.png",
+      "16": "image/icon1.png",
+      "48": "image/icon1.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtnhBwqSXhiJfV7S70Mhc41WAqdl5fPfbuhHIYrM1QJwOA9N5lIn8EqkLMYVJWBQHPBD+CPEoxqEV7jA8o4Z/NmvLcCmvjLFB8co6xVYGnD7ej1cmFykeFBGMbgDtK9aozRImL7ycI7gydi45iu6af6Na8wEG4ubzLGWR3zmLlk4oloPvUoOV+qECQu3smh5VADgE+SL8pL4qdDLM4Y7E8wuVF+XUx7dY5JJ9q8fAxCb8TJHQB5cdEHaX1WpQfdkJ2w6WGr6Lgcz0LG+v5iLAI8hKC+dvbgALJ/R1GNm7Xm6eXTfgdkyvexLmdT9mRE4wmHG28XUmiWPBSuUcbCXPFwIDAQAB",
+   "manifest_version": 3,
+   "name": "FUTBot",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.6",
+   "web_accessible_resources": [ {
+      "matches": [ "https://www.ea.com/*" ],
+      "resources": [ "bell.wav", "image/icon1.png" ]
+   } ]
+}
